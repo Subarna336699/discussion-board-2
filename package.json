@@ -1,0 +1,28 @@
+{
+  "name": "discussion-board",
+  "version": "1.0.0",
+  "description": "A simple discussion board application",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js",
+   "everything": "start cmd /k \"node server.js\" && start cmd /k \"cd discussion-board && npm run start\""
+  },
+  "keywords": [
+    "discussion",
+    "board",
+    "app"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "discussion-board": "file:",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.5"
+  }
+}
