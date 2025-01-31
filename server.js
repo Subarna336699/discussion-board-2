@@ -20,7 +20,7 @@ db.once('open', () => {
     console.log('Connected to the database');
 });
 
-// Define routes here
+
 app.use("*",require("./routes/auth"))
 app.use("*",require("./routes/discussions"))
 
